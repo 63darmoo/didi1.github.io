@@ -1,0 +1,169 @@
+.header .glass {
+  background: linear-gradient(110deg, #C34D8F, rgba(255, 255, 255, 0));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 23%;
+  margin: auto;
+}
+
+.navbar {
+  text-decoration: none;
+  background: #D980AA; /* 86174B */
+  font-family: fantasy;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 40px;
+  margin: auto;
+  width: 80%;
+}
+
+.navdiv {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.sec-01 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 100px;
+  color: #fff;
+  font-family: fantasy;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+}
+
+.main-title {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.content{
+  position: relative;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .image{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.content .image img{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content .text-box{
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  max-width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transform: translate(-80px, 50px);
+}
+
+.content .text-box h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.rcakes::before {
+  content: "\2022"; /* Unicode code for bullet symbol */
+  margin-right: 0.5em;
+}
+
+/* Shop Button on HTMl */
+
+.shopButton{
+position: relative;
+top: 50%;
+left: 65%;
+background-color: #BC4F83;
+font-size: 17px;
+color: white;
+border: none;
+border-radius: 15px;
+padding: 10px;
+cursor: pointer;
+}
+
+.shopButton:hover{
+  background-color: white;
+  color: #BC4F83;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Shop Button CSS End */
+footer {
+  text-align: center;
+  background-color: #202020;
+  color: lightblue;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+
+.cakes{
+  background-color: #BC4F83;
+  padding: 7px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.cakes:hover{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+hr {
+  max-width: 50%;
+}

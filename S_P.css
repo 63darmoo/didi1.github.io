@@ -1,0 +1,74 @@
+.header .glass {
+  background: linear-gradient(110deg, #C34D8F, rgba(255, 255, 255, 0));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 23%;
+  margin: auto;
+}
+/* Header */
+/* Navbar CSS */
+.navbar {
+  text-decoration: none;
+  background: #D980AA; /* color 86174B */
+  font-family: fantasy;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 40px;
+  margin: auto;
+  width: 80%;
+}
+
+.navdiv {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+/* Navbar CSS */
+/* FooterCSS */
+
+footer {
+  text-align: center;
+  background-color: #202020;
+  color: lightblue;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+/* Footer CSS */
+
+.SP{
+  background-color: #BC4F83;
+  padding: 7px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.SP:hover{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
