@@ -104,6 +104,7 @@ li a {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   transform: translate(-80px, 50px);
+  width: 400px;
 }
 
 .content .text-box h3{
@@ -167,3 +168,4 @@ footer {
 hr {
   max-width: 50%;
 }
+
