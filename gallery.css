@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* get google's font Poppin's */
+
+/* Navbar CSS */
+.navbar {
+  text-decoration: none;
+  background: #D980AA; /* color 86174B */
+  font-family: fantasy;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 40px;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.navdiv {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+/* Navbar CSS */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(139, 133, 133);
+  color: rgb(139, 133, 133);
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+}
+
+.container .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 769px){
+  
+}
