@@ -5,4 +5,6 @@ ScrollReveal({
   delay: 400
 });
 
-ScrollReveal().reveal('img', { delay: 600 });
+ScrollReveal().reveal('.column1', { delay: 600 });
+ScrollReveal().reveal('.column2', { delay: 700 });
+ScrollReveal().reveal('.column3', { delay: 800 });
